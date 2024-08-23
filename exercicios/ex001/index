@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<he ad>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro exercicio</title>
+    <style>
+        h1, p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello worldd</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt hic delectus ipsum. Eius ipsa ducimus temporibus, aliquid accusamus hic sapiente nihil nesciunt, quibusdam iusto nulla maiores, repellat vitae sint assumenda?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ea expedita placeat harum facere iste deleniti neque architecto libero qui dolore aperiam illo nemo odio distinctio, porro possimus dicta eos!</p>
+</body>
+</html>

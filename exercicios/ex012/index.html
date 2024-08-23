@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videos com HTML5</title>
+  </head>
+  <body>
+    <h1>Inserindo vídeos hospedando localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video controls width="560" poster="imagens/103948.jpg" autoplay loop>
+      <source src="midias/limao.mp4" type="video/mp4" />
+      <source src="midias/limao.mkv" type="video/mp4" />
+      <source src="midias/limao.webm" type="video/webm" />
+      <source src="midias/limao.ogv" type="video/ogg" />
+    </video>
+
+    <h1>Inserindo videos do Youtube.</h1>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/OzUnqQk4eOg?si=NHeinpWKXG8ZHChJ"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
