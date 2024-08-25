@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey From</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="title">Programmer Survey Form</h1>
+    <p id="description">Tell us about your programming road.</p>
+  </header>
+  <main>
+    <section>
+      <form method="POST" id="survey-form">
+          <fieldset>
+          <label for="name" id="name-label">Name: <input type="text" id="name" placeholder="Enter Your First Name" required /></label>
+          <label for="last-name" id="last-name-label" >Last Name: <input type="text" id="last-name" placeholder="Enter Your Last Name" required /></label>
+          <label for="email" id="email-label" >Email: <input type="email" id="email" placeholder="Enter Your Email" required /></label>
+          <label for="number" id="number-label">Age: <input type="number" id="number" max="120" min="10" placeholder="Enter Your Age" /></label>
+          </fieldset>
+          <fieldset>
+            <label for="role" class="btext">What describe your skill the best as a developer student: 
+              <select id="dropdown"> 
+                <option value="">Select current role</option>
+                <option value="1">Beginner</option>
+                <option value="2">Advanced Beginner</option>
+                <option value="3">Intermediate</option>
+                <option value="4">Advanced</option>
+                <option value="5">Expert</option>
+              </select>
+            </label>
+            <label class="btext">What kind of programmer are you looking to become?</label>
+            <label for="front-end"><input type="radio" name="dev" id="front-end" class="inline" value="front-end" checked /> Front-end</label>
+            <label for="back-end"><input type="radio" name="dev" id="back-end" class="inline" value="back-end"  /> Back-end</label>
+            <label for="full-stack"><input type="radio" name="dev" id="full-stack" class="inline" value="full-stack"  /> Full-Stack</label>
+            <label for="other"><input type="radio" name="dev" id="other" class="inline" value="other"  /> Other</label>  
+            <label>What Programmig/Markup languages are you looking forward to learn?</label>
+            <label for="html-css"><input type="checkbox" value="html-css" /> HTML/CSS</label>
+            <label for="html-css"><input type="checkbox" value="html-css" class="inline" /> C++</label>
+            <label for="html-css"><input type="checkbox" value="html-css" class="inline" /> JavaScript</label>
+            <label for="html-css"><input type="checkbox" value="html-css" class="inline" /> Python</label>
+            <label for="html-css"><input type="checkbox" value="html-css" class="inline" /> Java</label>
+            <label for="html-css"><input type="checkbox" value="html-css" class="inline" /> SQL</label>
+            <label for="html-css"><input type="checkbox" value="html-css" class="inline" /> Other(type bellow)</label>
+          <label for="comments">
+            <textarea id="comments" rows="3" cols="30" placeholder="Tell us more about your programming journey"></textarea>
+            </label>
+          </fieldset> 
+          <input type="submit" value="Submit" id="submit" />
+      </form>
+    </section>
+  </main>
+</body>
+</html>
