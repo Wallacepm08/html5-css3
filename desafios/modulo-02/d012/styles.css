@@ -31,11 +31,7 @@ header > h1{
     font-variant: small-caps;
     font-size: 10vw;
     font-family: var(--font2);
-    background-image: linear-gradient ( to bottom, cor1, cor2, cor3);
-    color: black;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
 }
 header > p{
     padding: 0px 0px 50px 0px;
