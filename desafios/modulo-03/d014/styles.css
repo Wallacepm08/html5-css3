@@ -40,39 +40,26 @@ iframe#tela{
     left: 22px;
     height: 471px;
     width: 270px;
-}
-
-/* article#tela{
-    transform: translate(-50%, -50%);
-    background-position: top center;
-
     
-    border-radius: 2%;
-    xxxxx
-    background-image: url(imagens/tela-home.jpg);
-    background-size: 100% 100%;
-    
-    position: absolute;
-    height: 430px;
-    width: 276px;
-
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-} 
-
-article#tela{
-    position: absolute;
-    height: 430px;
-    width: 276px;
-
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
-article#tela >iframe{
-    height: 100%;
-    width: 100%;
 
+section#rede-sociais ul{
+    text-align: right; 
 }
-*/
+
+section#rede-sociais img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.414);
+    box-sizing: border-box;
+}
+section#rede-sociais img:hover{
+    border: 1.5px solid rgba(255, 255, 255, 0.841);
+    height: 60px;
+    width: 60px;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.605);
+    transition: transform .4s, height 1s, width 1s, border .4s;
+}
